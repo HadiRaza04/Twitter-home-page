@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1" />
+    <title>Twitter Clone</title>
+
+    <link rel="stylesheet" href="./assets/css/style2.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1286d21307.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+        <nav class="left-menu">
+          <ul style="list-style-type:none;" class="menu-icons">
+            <li class="dissappear">
+              <div class="hover-wrapper twitter-color logo-container">
+                <span class="logo"><i class="fab fa-twitter"></i></span>
+              </div>
+            </li>
+            <li>
+              <div class="hover-wrapper twitter-color">
+                <span class="icon"><i class="fas fa-home"></i></span>
+                <span class="menu-text">Home</span>
+              </div>
+            </li>
+            <li class="mobile-icon">
+              <div class="hover-wrapper appear">
+                <span class="icon icon-style">
+                  <i class="fas fa-search"></i>
+                </span>
+              </div>
+            </li>
+            <li class="dissappear">
+              <div class="hover-wrapper">
+                <span class="icon"><i class="fas fa-hashtag"></i></span>
+                <span class="menu-text">Explore</span>
+              </div>
+            </li>
+            <li>
+              <div class="hover-wrapper">
+                <span class="icon icon-style"><i class="far fa-bell"></i></span>
+                <span class="menu-text">Notifications</span>
+              </div>
+            </li>
+            <li>
+              <div class="hover-wrapper">
+                <span class="icon icon-style"><i class="far fa-envelope"></i></span>
+                <span class="menu-text">Messages</span>
+              </div>
+            </li>
+            <li class="dissappear">
+              <div class="hover-wrapper">
+                <span class="icon"><i class="far fa-bookmark"></i></span>
+                <span class="menu-text">Bookmarks</span>
+              </div>
+            </li>
+            <li class="dissappear">
+              <div class="hover-wrapper">
+                <span class="icon"><i class="far fa-list-alt"></i></span>
+                <span class="menu-text">Lists</span>
+              </div>
+            </li>
+            <li class="dissappear">
+              <div class="hover-wrapper">
+                <img class="profile-pic" src="./assets/img/profile.jpg"></img>
+                <span class="menu-text">Profile</span>
+              </div>
+            </li>
+            <li class="dissappear">
+              <div class="hover-wrapper">
+                <span class="icon"><i class="fas fa-ellipsis-h"></i></span>
+                <span class="menu-text">More</span>
+              </div>
+            </li>
+            <li>
+              <div class="hover-wrapper">
+                <button class="tweet-modal-button" type="button" name="button">
+                  <span class="tweet-model-button-text">Tweet</span>
+                  <span class="tweet-model-button-icon">
+                    <i class="fas fa-feather-alt"></i>
+                  </span>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="twitter-container">
+          <header>
+            <span class="profile-container">
+              <span class="mobile-profile-pic">
+                <img class="profile-pic" src="./assets/img/profile.jpg"></img>
+              </span>
+              <h1 id="main-page-home-header">
+                Home
+              </h1>
+            </span>
+
+            <i class="far fa-star twitter-color"></i>
+          </header>
+
+          <div class="compose-tweet">
+            <div class="compose-profile-container">
+              <img class="compose-profile" src="./assets/img/profile.jpg">
+              </img>
+
+              <textarea
+                name="name"
+                placeholder="What's on your mind?"></textarea>
+            </div>
+            <div class="compose-buttons-icons">
+              <div class="compose-icons">
+                <div class="compose-icon">
+                  <i class="far fa-image"></i>
+                </div>
+
+                <div class="compose-icon">
+                  <i class="fas fa-poll-h"></i>
+                </div>
+
+                <div class="compose-icon">
+                  <i class="far fa-smile"></i>
+                </div>
+              </div>
+
+              <div>
+                <button class="compose-button" type="button" name="button">Tweet</button>
+              </div>
+            </div>
+
+            <div class="separator">
+            </div>
+          </div>
+
+          <div class="twitter-posts">
+            <div class="tweet-post">
+              <div class="compose-profile-container">
+                <img class="compose-profile" src="./assets/img/raps_logo.png">
+                </img>
+
+                  <div class="tweet-profile-content-container">
+                    <div class="tweet-profile-title-container">
+                      <div class="tweet-profile-info">
+                        <div class="tweet-profile-title">
+                          PTV Sports
+                        </div>
+
+                        <div class="tweet-check-mark">
+                          <i class="fas fa-check-circle"></i>
+                        </div>
+
+                        <div class="tweet-handle">
+                          @Raptors · 2m
+                        </div>
+                      </div>
+
+                      <div class="tweet-profile-options-container">
+                        <div class="tweet-option">
+                          <i class="fas fa-chevron-down"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="tweet-content">
+                      'I suffered many things which I don't want my child to face': Ex-Pakistan captain doesn't want his son to play cricket
+                    </div>
+                  </div>
+                </div>
+
+                <div class="img-placeholder">
+                  <img class="tweet-photo" src="./assets/img/raptors-jlin.jpg" alt="Jeremy Lin">
+                </div>
+
+                <div class="tweet-buttons">
+                  <div class="buttons-container">
+                    <i class="far fa-comment"></i>
+                    <div class="number-comments">
+                      600
+                    </div>
+                  </div>
+
+                  <div class="buttons-container">
+                    <i class="fas fa-retweet"></i>
+                    <div class="number-retweets">
+                      77
+                    </div>
+                  </div>
+
+                  <div class="buttons-container">
+                    <i class="far fa-heart"></i>
+                    <div class="number-likes">
+                      934
+                    </div>
+                  </div>
+
+                  <div class="buttons-container">
+                    <i class="fas fa-arrow-up"></i>
+                  </div>
+                </div>
+            </div>
+
+            <div class="tweet-post">
+              <div class="compose-profile-container">
+                <img class="compose-profile" src="./assets/img/dallas_cowboys.jpg">
+                </img>
+
+                  <div class="tweet-profile-content-container">
+                    <div class="tweet-profile-title-container">
+                      <div class="tweet-profile-info">
+                        <div class="tweet-profile-title">
+                          Pakistan Cricket                        </div>
+
+                        <div class="tweet-check-mark">
+                          <i class="fas fa-check-circle"></i>
+                        </div>
+
+                        <div class="tweet-handle">
+                          @dallascowboys · 15m
+                        </div>
+                      </div>
+
+                      <div class="tweet-profile-options-container">
+                        <div class="tweet-option">
+                          <i class="fas fa-chevron-down"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="tweet-content">
+                      The #Pakistan national cricket team, often referred to as the Shaheens, Green Shirts, Men in Green, and Cornered Tigers is administered by the #Pakistan Cricket Board. Wikipedia
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tweet-buttons">
+                  <div class="buttons-container">
+                    <i class="far fa-comment"></i>
+                    <div class="number-comments">
+                      600
+                    </div>
+                  </div>
+
+                  <div class="buttons-container">
+                    <i class="fas fa-retweet"></i>
+                    <div class="number-retweets">
+                      77
+                    </div>
+                  </div>
+
+                  <div class="buttons-container">
+                    <i class="far fa-heart"></i>
+                    <div class="number-likes">
+                      934
+                    </div>
+                  </div>
+
+                  <div class="buttons-container">
+                    <i class="fas fa-arrow-up"></i>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="right-menu">
+          <div class="search">
+            <span class="search-bar-icon">
+              <i class="fas fa-search"></i>
+            </span>
+            <input class="search-bar" type="text"/>
+          </div>
+
+          <div class="trends-continer">
+            <div class="trends-title-lines">
+              <div class="trends-title-container">
+                <div class="trends-title">
+                  Trends for you
+                </div>
+                <i class="fas fa-cog"></i>
+              </div>
+            </div>
+
+            <div class="trending-post">
+              <div class="trending-info">
+                <div class="trending-country-options-container">
+                  <div class="trending-country">
+                    Trending in Pakistan
+                  </div>
+                  <div class="trending-options">
+                    <i class="fas fa-angle-down"></i>
+                  </div>
+                </div>
+                <div class="trending-post-title">
+                  Cricket
+                </div>
+                <div class="trending-post-detail">
+
+                </div>
+                <div class="trending-post-number-tweets">
+                  2,546 Tweets
+                </div>
+              </div>
+            </div>
+
+            <div class="trending-post">
+              <div class="trending-info">
+                <div class="trending-country-options-container">
+                  <div class="trending-country">
+                    Trending in Pakistan
+                  </div>
+                  <div class="trending-options">
+                    <i class="fas fa-angle-down"></i>
+                  </div>
+                </div>
+                <div class="trending-post-title">
+                  Shahid Afridi
+                </div>
+                <div class="trending-post-detail">Trending with: #cricket, #sports</div>
+                <div class="trending-post-number-tweets">
+                  2,546 Tweets
+                </div>
+              </div>
+            </div>
+
+            <div class="trending-post">
+              <div class="trending-info">
+                <div class="trending-country-options-container">
+                  <div class="trending-country">
+                    Trending in Pakistan
+                  </div>
+                  <div class="trending-options">
+                    <i class="fas fa-angle-down"></i>
+                  </div>
+                </div>
+                <div class="trending-post-title">
+                  PTV Sports
+                </div>
+                <div class="trending-post-detail">
+
+                </div>
+                <div class="trending-post-number-tweets">
+                  7,548 Tweets
+                </div>
+              </div>
+            </div>
+
+            <div class="trends-show-more">
+              Show more
+            </div>
+          </div>
+        </aside>
+    </div>
+  </body>
+</html>
